@@ -12,6 +12,7 @@
         <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.2.25/angular-route.js"></script>
         <script src="script.js"></script>
         <title></title>
+        <base href="/index.php">
     </head>
     <body ng-controller="mainController">
 
@@ -30,9 +31,9 @@
                         
                         https://scotch.io/tutorials/pretty-urls-in-angularjs-removing-the-hashtag
                         -->
-                        <li><a href="#"><i class="fa fa-home"></i> Home</a></li>
-                        <li><a href="#about"><i class="fa fa-shield"></i> About</a></li>
-                        <li><a href="#contact"><i class="fa fa-comment"></i> Contact</a></li>
+                        <li><a href="/"><i class="fa fa-home"></i> Home</a></li>
+                        <li><a href="/about"><i class="fa fa-shield"></i> About</a></li>
+                        <li><a href="/contact"><i class="fa fa-comment"></i> Contact</a></li>
                     </ul>
                 </div>
             </nav>

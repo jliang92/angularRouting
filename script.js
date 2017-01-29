@@ -1,8 +1,10 @@
 var scotchApp = angular.module('scotchApp', ['ngRoute']);
 
 // configure our routes
-scotchApp.config(function ($routeProvider) {
+scotchApp.config(function ($routeProvider,$locationProvider) {
+    $locationProvider.ht
     $routeProvider
+    
 
             /*  To see how to get this working without the #, look up:
              
